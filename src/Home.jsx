@@ -3,7 +3,7 @@ import LogoOne from "./images/logoOne.png";
 import LogoTwo from "./images/hero-image 2.jpg";
 import LogoThree from "./images/Big Dream.jpg";
 import LogoFour from "./images/about 3.png";
-import LogoFive from "./images/king 4.png";
+import LogoFive from "./images/Binance Cap.png";
 
 export default function Home() {
   return (
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
         <div className="p-5">
           <h1 className="text-center">Small Coin, Big Dreams!</h1>
-          <p className="text-center">
+          <p className="text-center" s>
             MiiniSol is designed to be the spirited mini version of Solana,
             capturing the essence and excitement of the blockchain in a more
             compact, community-focused form. We aim to create a vibrant
@@ -47,10 +47,12 @@ export default function Home() {
             launching New Memecoin Projects on our multi-chain IDOs.
           </p>
         </div>
-        <div id="LogoFive">
+        <div id="LogoFive" className="p-5">
           <img src={LogoFive} />
         </div>
       </section>
+
+      {/* Section Three */}
     </div>
   );
 }

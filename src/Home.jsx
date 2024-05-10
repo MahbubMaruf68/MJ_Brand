@@ -13,7 +13,7 @@ export default function Home() {
       </header>
       <section
         id="SectionOne"
-        className="bg-gradient-to-r from-[#F8F7B6] to-[#BCD5FC] h-auto my-20"
+        className="bg-gradient-to-r from-[#F8F7B6] to-[#BCD5FC] h-auto"
       >
         <div id="ImgOne">
           <img src={LogoTwo} className="rounded-2xl" />

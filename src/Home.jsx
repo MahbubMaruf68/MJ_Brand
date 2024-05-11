@@ -4,6 +4,11 @@ import LogoTwo from "./images/hero-image 2.jpg";
 import LogoThree from "./images/Big Dream.jpg";
 import LogoFour from "./images/about 3.png";
 import LogoFive from "./images/Binance Cap.png";
+import LogoSix from "./images/features 5.png";
+import LogoSeven from "./images/minisolswap 6.png";
+import LogoEight from "./images/launchpad 7.png";
+import LogoNine from "./images/swap2 7.png";
+import LogoTen from "./images/upcoming 8.png";
 
 export default function Home() {
   return (
@@ -24,9 +29,7 @@ export default function Home() {
           <img src={LogoThree} />
         </div>
       </section>
-
       {/* Section Two */}
-
       <section
         id="SectionTwo"
         className="flex flex-col justify-center items-center border-2 border-yellow-400 m-5"
@@ -51,8 +54,56 @@ export default function Home() {
           <img src={LogoFive} />
         </div>
       </section>
-
       {/* Section Three */}
+      <section
+        id="Section Three"
+        className="flex flex-col justify-center items-center"
+      >
+        <div id="LogoSix" className="p-5">
+          <img src={LogoSix} />
+        </div>
+        <h1>Features</h1>
+        <div className="flex flex-row justify-around items-center">
+          <div id="LogoSeven" className="p-5">
+            <img src={LogoSeven} />
+          </div>
+          <div id="LogoEight" className="p-5">
+            <img src={LogoEight} />
+          </div>
+        </div>
+      </section>
+
+      {/* Section Four */}
+      <section
+        id="Section Three"
+        className="flex flex-col justify-center items-center"
+      >
+        <div>
+          <h1>MINI SOL Presale</h1>
+
+          <p>Buy MINISOL with All Chain Support. (BNB/ETH/MATIC/SOLANA)</p>
+        </div>
+
+        <div>
+          <button>Buy Now</button>
+        </div>
+
+        <div>
+          <p>* 1 MINISOL = 0.000001$ </p>
+          <p>* No Vesting Period</p>
+        </div>
+        <div id="LogoNine" className="p-5">
+          <img src={LogoNine} />
+        </div>
+      </section>
+
+      {/* Section Five */}
+      <section id="SectionFive">
+        <div id="LogoTen" className="p-5">
+          <img src={LogoTen} />
+        </div>
+        <div></div>
+      </section>
     </div>
   );
 }
